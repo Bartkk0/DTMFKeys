@@ -68,6 +68,7 @@ class MainWindow : public Gtk::Window {
 public:
     MainWindow() {
         set_border_width(10);
+        set_resizable(false);
 
         m_buttonsFlow.set_max_children_per_line(4);
         m_buttonsFlow.set_min_children_per_line(4);
